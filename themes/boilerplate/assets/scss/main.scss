@@ -1,0 +1,40 @@
+// 1. Configuration and helpers
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "abstracts/placeholders";
+
+// 2. Vendors
+
+// 3. Base stuff
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// 4. Layout-related sections
+@import "layout/header";
+@import "layout/footer";
+
+// 5. Components
+@import "components/buttons";
+@import "components/carousel";
+@import "components/dropdown";
+
+// 6. Page-specific styles
+@import "pages/home";
+
+// 7. Themes
+@import "themes/default";
+
+/* Small devices (iPhone X, 350px and up) */
+@media only screen and (min-width: 350px) {
+} 
+
+/* Small devices (portrait tablets and large phones, 550px and up) */
+@media only screen and (min-width: 550px) {
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+} 

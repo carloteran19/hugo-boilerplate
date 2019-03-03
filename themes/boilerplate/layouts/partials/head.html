@@ -1,0 +1,11 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {{ $sass := resources.Get "scss/main.scss" }}
+    {{ $style := $sass | resources.ToCSS }}
+    <style>{{ $style.Content | safeCSS }}</style>
+
+    <link rel="shortcut icon" type="image/png" href="">
+    <title>{{ .Title }}</title>
+</head>
