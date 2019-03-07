@@ -102,10 +102,10 @@ sass/
  ├── layouts/ // Your site's layouts
  ├── resources/ // Your site's partials
  ├── static/ // Where all static files live
- | ├── css/ // Where compiled CSS files live
- | ├── js/ // Where compiled JS files live
- | ├── img/ // Where theme images live
- | └── uploads/ // Where user uploads are stored
+ ├── themes/ // Where the default theme lives.
+ | ├── boilerplate/ // default theme name, it can be changed based on project.
+ | |   ├── boilerplate/ // default theme name, it can be changed based on project.
+ | |   ├── boilerplate/ // default theme name, it can be changed based on project.
  └── config.toml // The Hugo configuration file
 ```
 # Deployment
