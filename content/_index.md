@@ -1,3 +1,7 @@
-+++
-title = "HUGO Boilerplate"
-+++
+---
+title: HUGO Boilerplate
+description: HUGO Boilerplate
+blocks:
+hero:
+   
+---
